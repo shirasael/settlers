@@ -25,7 +25,7 @@ import NewGameForm from './new_game_form';
 import withMobileDialog from '@material-ui/core/withMobileDialog';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import GamesInfoTable from './games';
-import colors from './colors';
+import { colors } from './colors';
 
 const styles = theme => ({
   root: {

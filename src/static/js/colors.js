@@ -5,6 +5,11 @@ import orange from '@material-ui/core/colors/orange';
 import purple from '@material-ui/core/colors/purple';
 import red from '@material-ui/core/colors/red';
 
-const COLORS = [blue[500], green[500], yellow[500], orange[500], red[500], purple[500]];
+export const colors = [blue[500], green[500], yellow[500], orange[500], red[500], purple[500]];
+export const namedColors = {"blue": blue,
+												"green": green,
+												"yellow": yellow,
+												"orange": orange,
+												"red": red,
+												"purple": purple};
 
-export default COLORS;
