@@ -41,7 +41,8 @@
           ],
           "plugins": [
             "transform-class-properties"
-          ]
+          ],
+          "compact": true
         }
       ]
     ]

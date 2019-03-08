@@ -13,10 +13,15 @@
 	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/loading.css') }}"/>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='img/KingOfCatann.png') }}">
+
 </head>
 <body style="height: 100%;">
 	<div id="main" style="height: 100%;">
-		Loaing...
+		<img src="{{ url_for('static', filename='img/KingOfCatann.png') }}" class="ld ld-breath center" />
 	</div>
 	<script type="text/babel" src="{{ url_for('static', filename='js/dist/bundle.js') }}"/>
 </body>
