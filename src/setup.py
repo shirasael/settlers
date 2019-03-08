@@ -22,6 +22,5 @@ setup(
         'flask',
         'sqlalchemy',
         'arrow',
-        
     ],
 )
